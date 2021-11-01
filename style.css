@@ -1,0 +1,93 @@
+
+
+body {
+  background-color: gainsboro;
+  position: relative;
+  font-family: 'Offside', cursive;
+}
+
+.logo img {
+  left: 50px;
+  top: 10px;
+  position: absolute;
+  width: 100px;
+ 
+
+}
+
+nav ul { 
+  font-size: 20pt;
+	display: flex;
+	justify-content: flex-end;
+  list-style-type: none;
+  
+}
+nav li { 
+  padding: 60px 60px; 
+ 
+  }
+nav a { color: black;  text-decoration: none;}
+nav a:hover { color: white; }
+
+.roman_r {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  width: 60vw;
+  z-index: -1;
+  
+}
+
+.blackletter {
+  position: absolute;
+  left: 630px;
+  top: -100px;
+  width: 50vw;
+  z-index: -1;
+  
+}
+
+.didot {
+  position: absolute;
+  left: 100px;
+  top: -200px;
+  width: 30vw;
+  z-index: -1;
+}
+
+.lato {
+  position: absolute;
+  left: 375px;
+  top: -550px;
+  width: 80vw;
+  z-index: -1;
+}
+
+.two-cols { 
+  
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 200px;
+  }
+
+.img-right .left { text-align: right; margin-right: 60px;}
+
+.img-left .right { margin-left: 60px; }
+
+.gutt {
+  border-radius: 50%;
+}
+
+.bracc {
+  border-radius: 50%;
+}
+
+.f_didot {
+  border-radius: 50%;
+}
+
+
+.glass {
+  border-radius: 50%;
+}
